@@ -1,6 +1,5 @@
 # C_2020
-Practice of C starts at 2020.
-
+Practice of C starts at 2020.<br>
 Used to contain my c code for basic skills and algorithms.
 
 Steps:
