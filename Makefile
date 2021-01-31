@@ -7,7 +7,7 @@ SRC_DIR = .
 OBJ_DIR = .
 INC_DIR = .
 _DEPS = main.h
-_OBJS = main.o merge_sort.o pivot.o
+_OBJS = main.o merge_sort.o pivot_sort.o
 
 DEPS = $(patsubst %,$(INC_DIR)/%,$(_DEPS))
 OBJS = $(patsubst %,$(OBJ_DIR)/%,$(_OBJS))
