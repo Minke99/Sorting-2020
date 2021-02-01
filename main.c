@@ -5,7 +5,7 @@ void sort(int* arr, int firstPtr, int len);
 // Function main init the arr and send it to the function sort with its length.
 int main()
 {
-int arr[] = {2, 10, 7, 3, 5, 6,11};
+int arr[] = {2, 10, 7, 3, 5, 6,11,-1};
     //len is the number of element
     int len = sizeof(arr)/sizeof(int);
     printf("len = %d\n, then call the function of sort", len);
