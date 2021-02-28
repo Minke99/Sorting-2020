@@ -1,6 +1,6 @@
 #include <stdio.h>
 void merge(int *arr,int leftPtr, int midPtr,int rightPtr);
-int time = 0;
+//int time = 0;
 void merge_sort(int *arr,int left, int right)
 {
 	
@@ -13,8 +13,8 @@ void merge_sort(int *arr,int left, int right)
 	//sort the other one
 	merge_sort(arr, mid+1, right);
 	merge(arr, left, mid+1, right);
-	time++;
-	printf("at the %d time , arr[0] = %d,arr[1]=%d\n", time, arr[0],arr[1]);
+	//time++;
+	//printf("at the %d time , arr[0] = %d,arr[1]=%d\n", time, arr[0],arr[1]);
 
 }
 void merge(int *arr,int leftPtr, int midPtr,int rightPtr)
@@ -24,7 +24,7 @@ void merge(int *arr,int leftPtr, int midPtr,int rightPtr)
 	int i = leftPtr;
 	int j = midPtr;
 	int k = 0;
-	printf("at the %d time ,i = %d, j= %d  \n", time, i, j);
+	//printf("at the %d time ,i = %d, j= %d  \n", time, i, j);
 	//left compare with right
 	while(i <= mid && j <= rightPtr)
 	{
